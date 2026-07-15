@@ -107,7 +107,104 @@
 # swap_two_numbers(a,b)
 
 #15
-n = int(input("Enter a number : "))
-def find_last_digit(n):
-    
-   
+# n = int(input("Enter a number : "))
+# def find_last_digit(n):
+#     last_digit = n%10
+#     print(f"The last digit of the number {n} is {last_digit}")
+# find_last_digit(n)
+
+#16
+# n = int(input("Enter the number which factorial you want : "))
+# def fact(n):
+#     facto = 1
+#     for i in range(1,n+1):
+#         facto = facto*i
+#     print(f"The value of factorial of {n} is {facto}")
+# fact(n)
+
+#17
+# n = int(input("Enter the number : "))
+# def sum_of_n_num(n):
+#     sum = 0
+#     for i in range(1,n+1):
+#         sum = sum + i
+#     print(f"The sum of first {n} number is {sum}")
+# sum_of_n_num(n)
+
+#18
+# n = int(input("Enter the number which mulitplication table you want : "))
+# def multiplication(n):
+#     for i in range(1,11):
+#         print(f"{n} X {i} = {n*i}")
+# multiplication(n)
+
+#extra sum of 1-100 even number and same for odd number with minor changes
+# n = int(input("Enter the number : "))
+# def sum_of_n_num(n):
+#     sum = 0
+#     for i in range(1,n+1):
+#         if i%2==0:
+#             sum = sum + i
+#         else:
+#             continue
+#     print(f"The sum of first {n} number is {sum}")
+# sum_of_n_num(n)
+
+#19
+# n = int(input("Enter a number upto to which you want even numbers : "))
+# def evennum(n):
+#     for i in range(1,n+1):
+#         if i%2==0:
+#             print(i)
+#         else:
+#             continue
+# evennum(n)
+
+#20
+# n = int(input("Enter a number upto to which you want even numbers : "))
+# def oddnum(n):
+#     for i in range(1,n+1):
+#         if i%2!=0:
+#             print(i)
+#         else:
+#             continue
+# oddnum(n)
+
+#21
+# n = (input("Enter a number : "))
+# def return_num_total(n):
+#     total_digit = len(n)
+#     print(f"The total digit in number {n} is {total_digit}")
+# return_num_total(n)
+
+#22
+# n = int(input("Enter a number : "))
+# temp = n
+# def reverse_num(temp):
+#     reverse = 0
+#     remainder = 0
+#     while temp>0:
+#         remainder = temp %10
+#         reverse = reverse * 10 + remainder
+#         temp = temp // 10
+#     print(f"The Reverse number of {n} is {reverse}")
+# reverse_num(temp)
+
+#23
+# n = int(input("Enter a number : "))
+# temp = n
+# def reverse_num(temp):
+#     reverse = 0
+#     remainder = 0
+#     while temp>0:
+#         remainder = temp %10
+#         reverse = reverse * 10 + remainder
+#         temp = temp // 10
+#     if reverse==n:
+#         print(f"{n} is a pelindrome number")
+#     else:
+#         print(f"{n} is not pelindrome")
+# reverse_num(temp)
+
+#24
+
