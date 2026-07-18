@@ -24,8 +24,6 @@
 # name = input("Enter name : ")
 # age = int(input("Enter age : "))
 # def show(name,age):
-
-
 #     print(f'''\tName : {name} 
 #     \tAge : {age}''')
 # show(name,age)
